@@ -11,10 +11,18 @@
 Create a fake speed gun for my nephew. 
 
 ## Schematic
+![Schematic](assets/schematic.svg)
 
+|Name          |Quantity|Component                  |
+|:------------:|:------:|:-------------------------:|
+|     NANO     |   1    |        Arduino Nano       |
+|    PIEZO1    |   1    |           Piezo           |
+|    R1, R2    |   2    |      220 Ω Resistor       |
+|      R3      |   1    |      100 Ω Resistor       |
+|      S1      |   1    |         Pushbutton        |
+|      S2      |   1    |        Slideswitch        |
+|  SSD1, SSD2  |   2    | Cathode 7 Segment Display |
 
-
-## BOM
 
 ## Component Buy Links
 
