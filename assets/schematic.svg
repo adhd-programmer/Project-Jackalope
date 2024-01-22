@@ -1,0 +1,1878 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="708" height="458"> <style xmlns="http://www.w3.org/1999/xhtml">
+        
+ .M athJax_Hover_Frame {
+ border-radius: .25em;
+
+        -webkit-border-radius: .25em;
+ -moz-border-radius: .25em;
+
+        -khtml-border-radius: .25em;
+ box-shadow: 0px 0px 15px #83A;
+
+        -webkit-box-shadow: 0px 0px 15px #83A;
+ -moz-box-shadow: 0px 0px
+        15px #83A;
+ -khtml-box-shadow: 0px 0px 15px #83A;
+ border: 1px
+        solid #A6D ! important;
+ display: inline-block;
+ position:
+        absolute
+ }
+
+ .MathJax_Menu_Button .MathJax_Hover_Arrow {
+
+        position: absolute;
+ cursor: pointer;
+ display: inline-block;
+
+        border: 2px solid #AAA;
+ border-radius: 4px;
+
+        -webkit-border-radius: 4px;
+ -moz-border-radius: 4px;
+
+        -khtml-border-radius: 4px;
+ font-family: 'Courier New',
+        Courier;
+ font-size: 9px;
+ color: #F0F0F0
+ }
+
+
+        .MathJax_Menu_Button .MathJax_Hover_Arrow span {
+ display: block;
+
+        background-color: #AAA;
+ border: 1px solid;
+ border-radius:
+        3px;
+ line-height: 0;
+ padding: 4px
+ }
+
+
+        .MathJax_Hover_Arrow:hover {
+ color: white !important;
+ border:
+        2px solid #CCC !important
+ }
+
+ .MathJax_Hover_Arrow:hover
+        span {
+ background-color: #CCC !important
+ }
+
+
+
+        #MathJax_About {
+ position: fixed;
+ left: 50%;
+ width:
+        auto;
+ text-align: center;
+ border: 3px outset;
+ padding:
+        1em 2em;
+ background-color: #DDDDDD;
+ color: black;
+
+        cursor: default;
+ font-family: message-box;
+ font-size: 120%;
+
+        font-style: normal;
+ text-indent: 0;
+ text-transform: none;
+
+        line-height: normal;
+ letter-spacing: normal;
+ word-spacing:
+        normal;
+ word-wrap: normal;
+ white-space: nowrap;
+ float:
+        none;
+ z-index: 201;
+ border-radius: 15px;
+
+        -webkit-border-radius: 15px;
+ -moz-border-radius: 15px;
+
+        -khtml-border-radius: 15px;
+ box-shadow: 0px 10px 20px #808080;
+
+        -webkit-box-shadow: 0px 10px 20px #808080;
+ -moz-box-shadow: 0px
+        10px 20px #808080;
+ -khtml-box-shadow: 0px 10px 20px #808080;
+
+        filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2,
+        Color='gray', Positive='true')
+ }
+
+
+        #MathJax_About.MathJax_MousePost {
+ outline: none
+ }
+
+
+        .MathJax_Menu {
+ position: absolute;
+ background-color: white;
+
+        color: black;
+ width: auto;
+ padding: 2px;
+ border: 1px
+        solid #CCCCCC;
+ margin: 0;
+ cursor: default;
+ font: menu;
+
+        text-align: left;
+ text-indent: 0;
+ text-transform: none;
+
+        line-height: normal;
+ letter-spacing: normal;
+ word-spacing:
+        normal;
+ word-wrap: normal;
+ white-space: nowrap;
+ float:
+        none;
+ z-index: 201;
+ box-shadow: 0px 10px 20px #808080;
+
+        -webkit-box-shadow: 0px 10px 20px #808080;
+ -moz-box-shadow: 0px
+        10px 20px #808080;
+ -khtml-box-shadow: 0px 10px 20px #808080;
+
+        filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2,
+        Color='gray', Positive='true')
+ }
+
+
+        .MathJax_MenuItem {
+ padding: 2px 2em;
+ background: transparent
+
+        }
+
+ .MathJax_MenuArrow {
+ position: absolute;
+ right:
+        .5em;
+ padding-top: .25em;
+ color: #666666;
+ font-size:
+        .75em
+ }
+
+ .MathJax_MenuActive .MathJax_MenuArrow {
+
+        color: white
+ }
+
+ .MathJax_MenuArrow.RTL {
+ left: .5em;
+
+        right: auto
+ }
+
+ .MathJax_MenuCheck {
+ position:
+        absolute;
+ left: .7em
+ }
+
+ .MathJax_MenuCheck.RTL {
+
+        right: .7em;
+ left: auto
+ }
+
+ .MathJax_MenuRadioCheck {
+
+        position: absolute;
+ left: 1em
+ }
+
+
+        .MathJax_MenuRadioCheck.RTL {
+ right: 1em;
+ left: auto
+ }
+
+
+        .MathJax_MenuLabel {
+ padding: 2px 2em 4px 1.33em;
+ font-style:
+        italic
+ }
+
+ .MathJax_MenuRule {
+ border-top: 1px solid
+        #CCCCCC;
+ margin: 4px 1px 0px
+ }
+
+
+        .MathJax_MenuDisabled {
+ color: GrayText
+ }
+
+
+        .MathJax_MenuActive {
+ background-color: Highlight;
+ color:
+        HighlightText
+ }
+
+ .MathJax_MenuDisabled:focus,
+        .MathJax_MenuLabel:focus {
+ background-color: #E8E8E8
+ }
+
+
+        .MathJax_ContextMenu:focus {
+ outline: none
+ }
+
+
+        .MathJax_ContextMenu .MathJax_MenuItem:focus {
+ outline: none
+
+        }
+
+ #MathJax_AboutClose {
+ top: .2em;
+ right: .2em
+
+        }
+
+ .MathJax_Menu .MathJax_MenuClose {
+ top: -10px;
+
+        left: -10px
+ }
+
+ .MathJax_MenuClose {
+ position:
+        absolute;
+ cursor: pointer;
+ display: inline-block;
+
+        border: 2px solid #AAA;
+ border-radius: 18px;
+
+        -webkit-border-radius: 18px;
+ -moz-border-radius: 18px;
+
+        -khtml-border-radius: 18px;
+ font-family: 'Courier New',
+        Courier;
+ font-size: 24px;
+ color: #F0F0F0
+ }
+
+
+        .MathJax_MenuClose span {
+ display: block;
+ background-color:
+        #AAA;
+ border: 1.5px solid;
+ border-radius: 18px;
+
+        -webkit-border-radius: 18px;
+ -moz-border-radius: 18px;
+
+        -khtml-border-radius: 18px;
+ line-height: 0;
+ padding: 8px 0
+        6px
+ }
+
+ .MathJax_MenuClose:hover {
+ color: white
+        !important;
+ border: 2px solid #CCC !important
+ }
+
+
+        .MathJax_MenuClose:hover span {
+ background-color: #CCC !important
+
+        }
+
+ .MathJax_MenuClose:hover:focus {
+ outline: none
+ }
+
+
+        .MathJax_Preview .MJXf-math {
+ color: inherit !important
+ }
+
+
+        .MJX_Assistive_MathML {
+ position: absolute !important;
+ top:
+        0;
+ left: 0;
+ clip: rect(1px, 1px, 1px, 1px);
+ padding: 1px
+        0 0 0 !important;
+ border: 0 !important;
+ height: 1px
+        !important;
+ width: 1px !important;
+ overflow: hidden
+        !important;
+ display: block !important;
+ -webkit-touch-callout:
+        none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+
+        -moz-user-select: none;
+ -ms-user-select: none;
+ user-select:
+        none
+ }
+
+ .MJX_Assistive_MathML.MJX_Assistive_MathML_Block
+        {
+ width: 100% !important
+ }
+
+ #MathJax_Zoom {
+
+        position: absolute;
+ background-color: #F0F0F0;
+ overflow:
+        auto;
+ display: block;
+ z-index: 301;
+ padding: .5em;
+
+        border: 1px solid black;
+ margin: 0;
+ font-weight: normal;
+
+        font-style: normal;
+ text-align: left;
+ text-indent: 0;
+
+        text-transform: none;
+ line-height: normal;
+ letter-spacing:
+        normal;
+ word-spacing: normal;
+ word-wrap: normal;
+
+        white-space: nowrap;
+ float: none;
+ -webkit-box-sizing:
+        content-box;
+ -moz-box-sizing: content-box;
+ box-sizing:
+        content-box;
+ box-shadow: 5px 5px 15px #AAAAAA;
+
+        -webkit-box-shadow: 5px 5px 15px #AAAAAA;
+ -moz-box-shadow: 5px 5px
+        15px #AAAAAA;
+ -khtml-box-shadow: 5px 5px 15px #AAAAAA;
+
+        filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2,
+        Color='gray', Positive='true')
+ }
+
+
+        #MathJax_ZoomOverlay {
+ position: absolute;
+ left: 0;
+ top:
+        0;
+ z-index: 300;
+ display: inline-block;
+ width: 100%;
+
+        height: 100%;
+ border: 0;
+ padding: 0;
+ margin: 0;
+
+        background-color: white;
+ opacity: 0;
+ filter: alpha(opacity=0)
+
+        }
+
+ #MathJax_ZoomFrame {
+ position: relative;
+ display:
+        inline-block;
+ height: 0;
+ width: 0
+ }
+
+
+        #MathJax_ZoomEventTrap {
+ position: absolute;
+ left: 0;
+
+        top: 0;
+ z-index: 302;
+ display: inline-block;
+ border: 0;
+
+        padding: 0;
+ margin: 0;
+ background-color: white;
+ opacity:
+        0;
+ filter: alpha(opacity=0)
+ }
+
+ .MathJax_Preview {
+
+        color: #888
+ }
+
+ #MathJax_Message {
+ position: fixed;
+
+        left: 1em;
+ bottom: 1.5em;
+ background-color: #E6E6E6;
+
+        border: 1px solid #959595;
+ margin: 0px;
+ padding: 2px 8px;
+
+        z-index: 102;
+ color: black;
+ font-size: 80%;
+ width: auto;
+
+        white-space: nowrap
+ }
+
+ #MathJax_MSIE_Frame {
+
+        position: absolute;
+ top: 0;
+ left: 0;
+ width: 0px;
+
+        z-index: 101;
+ border: 0px;
+ margin: 0px;
+ padding: 0px
+
+        }
+
+ .MathJax_Error {
+ color: #CC0000;
+ font-style:
+        italic
+ }
+
+ .MJXp-script {
+ font-size: .8em
+ }
+
+
+        .MJXp-right {
+ -webkit-transform-origin: right;
+
+        -moz-transform-origin: right;
+ -ms-transform-origin: right;
+
+        -o-transform-origin: right;
+ transform-origin: right
+ }
+
+
+        .MJXp-bold {
+ font-weight: bold
+ }
+
+ .MJXp-italic {
+
+        font-style: italic
+ }
+
+ .MJXp-scr {
+ font-family:
+        MathJax_Script, 'Times New Roman', Times, STIXGeneral, serif
+
+        }
+
+ .MJXp-frak {
+ font-family: MathJax_Fraktur, 'Times
+        New Roman', Times, STIXGeneral, serif
+ }
+
+ .MJXp-sf {
+
+        font-family: MathJax_SansSerif, 'Times New Roman', Times,
+        STIXGeneral, serif
+ }
+
+ .MJXp-cal {
+ font-family:
+        MathJax_Caligraphic, 'Times New Roman', Times, STIXGeneral,
+        serif
+ }
+
+ .MJXp-mono {
+ font-family:
+        MathJax_Typewriter, 'Times New Roman', Times, STIXGeneral,
+        serif
+ }
+
+ .MJXp-largeop {
+ font-size: 150%
+ }
+
+
+        .MJXp-largeop.MJXp-int {
+ vertical-align: -.2em
+ }
+
+
+        .MJXp-math {
+ display: inline-block;
+ line-height: 1.2;
+
+        text-indent: 0;
+ font-family: 'Times New Roman', Times,
+        STIXGeneral, serif;
+ white-space: nowrap;
+ border-collapse:
+        collapse
+ }
+
+ .MJXp-display {
+ display: block;
+
+        text-align: center;
+ margin: 1em 0
+ }
+
+ .MJXp-math span
+        {
+ display: inline-block
+ }
+
+ .MJXp-box {
+ display:
+        block !important;
+ text-align: center
+ }
+
+
+        .MJXp-box:after {
+ content: " "
+ }
+
+ .MJXp-rule {
+
+        display: block !important;
+ margin-top: .1em
+ }
+
+
+        .MJXp-char {
+ display: block !important
+ }
+
+ .MJXp-mo {
+
+        margin: 0 .15em
+ }
+
+ .MJXp-mfrac {
+ margin: 0 .125em;
+
+        vertical-align: .25em
+ }
+
+ .MJXp-denom {
+ display:
+        inline-table !important;
+ width: 100%
+ }
+
+ .MJXp-denom&gt;
+        * {
+ display: table-row !important
+ }
+
+ .MJXp-surd {
+
+        vertical-align: top
+ }
+
+ .MJXp-surd&gt; * {
+ display:
+        block !important
+ }
+
+ .MJXp-script-box&gt; * {
+
+        display: table !important;
+ height: 50%
+ }
+
+
+        .MJXp-script-box&gt; *&gt; * {
+ display: table-cell !important;
+
+        vertical-align: top
+ }
+
+ .MJXp-script-box&gt; *:last-child&gt;
+        * {
+ vertical-align: bottom
+ }
+
+ .MJXp-script-box&gt; *&gt;
+        *&gt; * {
+ display: block !important
+ }
+
+
+        .MJXp-mphantom {
+ visibility: hidden
+ }
+
+
+        .MJXp-munderover, .MJXp-munder {
+ display: inline-table !important
+
+        }
+
+ .MJXp-over {
+ display: inline-block !important;
+
+        text-align: center
+ }
+
+ .MJXp-over&gt; * {
+ display:
+        block !important
+ }
+
+ .MJXp-munderover&gt; *, .MJXp-munder&gt;
+        * {
+ display: table-row !important
+ }
+
+ .MJXp-mtable {
+
+        vertical-align: .25em;
+ margin: 0 .125em
+ }
+
+
+        .MJXp-mtable&gt; * {
+ display: inline-table !important;
+
+        vertical-align: middle
+ }
+
+ .MJXp-mtr {
+ display:
+        table-row !important
+ }
+
+ .MJXp-mtd {
+ display:
+        table-cell !important;
+ text-align: center;
+ padding: .5em 0 0
+        .5em
+ }
+
+ .MJXp-mtr&gt; .MJXp-mtd:first-child {
+
+        padding-left: 0
+ }
+
+ .MJXp-mtr:first-child&gt; .MJXp-mtd {
+
+        padding-top: 0
+ }
+
+ .MJXp-mlabeledtr {
+ display:
+        table-row !important
+ }
+
+ .MJXp-mlabeledtr&gt;
+        .MJXp-mtd:first-child {
+ padding-left: 0
+ }
+
+
+        .MJXp-mlabeledtr:first-child&gt; .MJXp-mtd {
+ padding-top: 0
+ }
+
+
+        .MJXp-merror {
+ background-color: #FFFF88;
+ color: #CC0000;
+
+        border: 1px solid #CC0000;
+ padding: 1px 3px;
+ font-style:
+        normal;
+ font-size: 90%
+ }
+
+ .MJXp-scale0 {
+
+        -webkit-transform: scaleX(.0);
+ -moz-transform: scaleX(.0);
+
+        -ms-transform: scaleX(.0);
+ -o-transform: scaleX(.0);
+
+        transform: scaleX(.0)
+ }
+
+ .MJXp-scale1 {
+
+        -webkit-transform: scaleX(.1);
+ -moz-transform: scaleX(.1);
+
+        -ms-transform: scaleX(.1);
+ -o-transform: scaleX(.1);
+
+        transform: scaleX(.1)
+ }
+
+ .MJXp-scale2 {
+
+        -webkit-transform: scaleX(.2);
+ -moz-transform: scaleX(.2);
+
+        -ms-transform: scaleX(.2);
+ -o-transform: scaleX(.2);
+
+        transform: scaleX(.2)
+ }
+
+ .MJXp-scale3 {
+
+        -webkit-transform: scaleX(.3);
+ -moz-transform: scaleX(.3);
+
+        -ms-transform: scaleX(.3);
+ -o-transform: scaleX(.3);
+
+        transform: scaleX(.3)
+ }
+
+ .MJXp-scale4 {
+
+        -webkit-transform: scaleX(.4);
+ -moz-transform: scaleX(.4);
+
+        -ms-transform: scaleX(.4);
+ -o-transform: scaleX(.4);
+
+        transform: scaleX(.4)
+ }
+
+ .MJXp-scale5 {
+
+        -webkit-transform: scaleX(.5);
+ -moz-transform: scaleX(.5);
+
+        -ms-transform: scaleX(.5);
+ -o-transform: scaleX(.5);
+
+        transform: scaleX(.5)
+ }
+
+ .MJXp-scale6 {
+
+        -webkit-transform: scaleX(.6);
+ -moz-transform: scaleX(.6);
+
+        -ms-transform: scaleX(.6);
+ -o-transform: scaleX(.6);
+
+        transform: scaleX(.6)
+ }
+
+ .MJXp-scale7 {
+
+        -webkit-transform: scaleX(.7);
+ -moz-transform: scaleX(.7);
+
+        -ms-transform: scaleX(.7);
+ -o-transform: scaleX(.7);
+
+        transform: scaleX(.7)
+ }
+
+ .MJXp-scale8 {
+
+        -webkit-transform: scaleX(.8);
+ -moz-transform: scaleX(.8);
+
+        -ms-transform: scaleX(.8);
+ -o-transform: scaleX(.8);
+
+        transform: scaleX(.8)
+ }
+
+ .MJXp-scale9 {
+
+        -webkit-transform: scaleX(.9);
+ -moz-transform: scaleX(.9);
+
+        -ms-transform: scaleX(.9);
+ -o-transform: scaleX(.9);
+
+        transform: scaleX(.9)
+ }
+
+ .MathJax_PHTML .noError {
+
+        vertical-align: ;
+ font-size: 90%;
+ text-align: left;
+
+        color: black;
+ padding: 1px 3px;
+ border: 1px solid
+ }
+
+
+        .mjx-chtml {
+ display: inline-block;
+ line-height: 0;
+
+        text-indent: 0;
+ text-align: left;
+ text-transform: none;
+
+        font-style: normal;
+ font-weight: normal;
+ font-size: 100%;
+
+        font-size-adjust: none;
+ letter-spacing: normal;
+ word-wrap:
+        normal;
+ word-spacing: normal;
+ white-space: nowrap;
+
+        float: none;
+ direction: ltr;
+ max-width: none;
+
+        max-height: none;
+ min-width: 0;
+ min-height: 0;
+ border:
+        0;
+ margin: 0;
+ padding: 1px 0
+ }
+
+ .MJXc-display {
+
+        display: block;
+ text-align: center;
+ margin: 1em 0;
+
+        padding: 0
+ }
+
+ .mjx-chtml[tabindex]:focus, body :focus
+        .mjx-chtml[tabindex] {
+ display: inline-table
+ }
+
+
+        .mjx-full-width {
+ text-align: center;
+ display: table-cell
+        !important;
+ width: 10000em
+ }
+
+ .mjx-math {
+
+        display: inline-block;
+ border-collapse: separate;
+
+        border-spacing: 0
+ }
+
+ .mjx-math * {
+ display:
+        inline-block;
+ -webkit-box-sizing: content-box !important;
+
+        -moz-box-sizing: content-box !important;
+ box-sizing: content-box
+        !important;
+ text-align: left
+ }
+
+ .mjx-numerator {
+
+        display: block;
+ text-align: center
+ }
+
+
+        .mjx-denominator {
+ display: block;
+ text-align: center
+ }
+
+
+        .MJXc-stacked {
+ height: 0;
+ position: relative
+ }
+
+
+        .MJXc-stacked&gt; * {
+ position: absolute
+ }
+
+
+        .MJXc-bevelled&gt; * {
+ display: inline-block
+ }
+
+
+        .mjx-stack {
+ display: inline-block
+ }
+
+ .mjx-op {
+
+        display: block
+ }
+
+ .mjx-under {
+ display: table-cell
+
+        }
+
+ .mjx-over {
+ display: block
+ }
+
+ .mjx-over&gt;
+        * {
+ padding-left: 0px !important;
+ padding-right: 0px
+        !important
+ }
+
+ .mjx-under&gt; * {
+ padding-left: 0px
+        !important;
+ padding-right: 0px !important
+ }
+
+
+        .mjx-stack&gt; .mjx-sup {
+ display: block
+ }
+
+
+        .mjx-stack&gt; .mjx-sub {
+ display: block
+ }
+
+
+        .mjx-prestack&gt; .mjx-presup {
+ display: block
+ }
+
+
+        .mjx-prestack&gt; .mjx-presub {
+ display: block
+ }
+
+
+        .mjx-delim-h&gt; .mjx-char {
+ display: inline-block
+ }
+
+
+        .mjx-surd {
+ vertical-align: top
+ }
+
+ .mjx-mphantom * {
+
+        visibility: hidden
+ }
+
+ .mjx-merror {
+
+        background-color: #FFFF88;
+ color: #CC0000;
+ border: 1px solid
+        #CC0000;
+ padding: 2px 3px;
+ font-style: normal;
+
+        font-size: 90%
+ }
+
+ .mjx-annotation-xml {
+ line-height:
+        normal
+ }
+
+ .mjx-menclose&gt; svg {
+ fill: none;
+
+        stroke: currentColor
+ }
+
+ .mjx-mtr {
+ display:
+        table-row
+ }
+
+ .mjx-mlabeledtr {
+ display: table-row
+
+        }
+
+ .mjx-mtd {
+ display: table-cell;
+ text-align:
+        center
+ }
+
+ .mjx-label {
+ display: table-row
+ }
+
+
+        .mjx-box {
+ display: inline-block
+ }
+
+ .mjx-block {
+
+        display: block
+ }
+
+ .mjx-span {
+ display: inline
+ }
+
+
+        .mjx-char {
+ display: block;
+&lt;!-- white-space: pre--&gt;&lt;!--
+        Remove this because it keeps white spaces in exported SVGs, which makes
+        the texts very long --&gt;
+ }
+
+ .mjx-itable {
+ display:
+        inline-table;
+ width: auto
+ }
+
+ .mjx-row {
+
+        display: table-row
+ }
+
+ .mjx-cell {
+ display:
+        table-cell
+ }
+
+ .mjx-table {
+ display: table;
+
+        width: 100%
+ }
+
+ .mjx-line {
+ display: block;
+
+        height: 0
+ }
+
+ .mjx-strut {
+ width: 0;
+
+        padding-top: 1em
+ }
+
+ .mjx-vsize {
+ width: 0
+ }
+
+
+        .MJXc-space1 {
+ margin-left: .167em
+ }
+
+ .MJXc-space2 {
+
+        margin-left: .222em
+ }
+
+ .MJXc-space3 {
+ margin-left:
+        .278em
+ }
+
+ .mjx-chartest {
+ display: block;
+
+        visibility: hidden;
+ position: absolute;
+ top: 0;
+
+        line-height: normal;
+ font-size: 500%
+ }
+
+
+        .mjx-chartest .mjx-char {
+ display: inline
+ }
+
+
+        .mjx-chartest .mjx-box {
+ padding-top: 1000px
+ }
+
+
+        .MJXc-processing {
+ visibility: hidden;
+ position: fixed;
+
+        width: 0;
+ height: 0;
+ overflow: hidden
+ }
+
+
+        .MJXc-processed {
+ display: none
+ }
+
+ .mjx-test {
+
+        font-style: normal;
+ font-weight: normal;
+ font-size: 100%;
+
+        font-size-adjust: none;
+ text-indent: 0;
+ text-transform: none;
+
+        letter-spacing: normal;
+ word-spacing: normal;
+ overflow:
+        hidden;
+ height: 1px
+ }
+
+ .mjx-test.mjx-test-display {
+
+        display: table !important
+ }
+
+ .mjx-test.mjx-test-inline {
+
+        display: inline !important;
+ margin-right: -1px
+ }
+
+
+        .mjx-test.mjx-test-default {
+ display: block !important;
+
+        clear: both
+ }
+
+ .mjx-ex-box {
+ display: inline-block
+        !important;
+ position: absolute;
+ overflow: hidden;
+
+        min-height: 0;
+ max-height: none;
+ padding: 0;
+ border: 0;
+
+        margin: 0;
+ width: 1px;
+ height: 60ex
+ }
+
+
+        .mjx-test-inline .mjx-left-box {
+ display: inline-block;
+
+        width: 0;
+ float: left
+ }
+
+ .mjx-test-inline
+        .mjx-right-box {
+ display: inline-block;
+ width: 0;
+ float:
+        right
+ }
+
+ .mjx-test-display .mjx-right-box {
+ display:
+        table-cell !important;
+ width: 10000em !important;
+ min-width:
+        0;
+ max-width: none;
+ padding: 0;
+ border: 0;
+ margin:
+        0
+ }
+
+ #MathJax_CHTML_Tooltip {
+ background-color:
+        InfoBackground;
+ color: InfoText;
+ border: 1px solid black;
+
+        box-shadow: 2px 2px 5px #AAAAAA;
+ -webkit-box-shadow: 2px 2px 5px
+        #AAAAAA;
+ -moz-box-shadow: 2px 2px 5px #AAAAAA;
+
+        -khtml-box-shadow: 2px 2px 5px #AAAAAA;
+ padding: 3px 4px;
+
+        z-index: 401;
+ position: absolute;
+ left: 0;
+ top: 0;
+
+        width: auto;
+ height: auto;
+ display: none
+ }
+
+
+        .mjx-chtml .mjx-noError {
+ line-height: 1.2;
+ vertical-align: ;
+
+        font-size: 90%;
+ text-align: left;
+ color: black;
+ padding:
+        1px 3px;
+ border: 1px solid
+ }
+
+ .MJXc-TeX-unknown-R {
+
+        font-family: STIXGeneral, 'Cambria Math', 'Arial Unicode MS',
+        serif;
+ font-style: normal;
+ font-weight: normal
+ }
+
+
+        .MJXc-TeX-unknown-I {
+ font-family: STIXGeneral, 'Cambria Math',
+        'Arial Unicode MS', serif;
+ font-style: italic;
+
+        font-weight: normal
+ }
+
+ .MJXc-TeX-unknown-B {
+
+        font-family: STIXGeneral, 'Cambria Math', 'Arial Unicode MS',
+        serif;
+ font-style: normal;
+ font-weight: bold
+ }
+
+
+        .MJXc-TeX-unknown-BI {
+ font-family: STIXGeneral, 'Cambria Math',
+        'Arial Unicode MS', serif;
+ font-style: italic;
+
+        font-weight: bold
+ }
+
+ .MJXc-TeX-ams-R {
+ font-family:
+        MJXc-TeX-ams-R, MJXc-TeX-ams-Rw
+ }
+
+ .MJXc-TeX-cal-B {
+
+        font-family: MJXc-TeX-cal-B, MJXc-TeX-cal-Bx, MJXc-TeX-cal-Bw
+ }
+
+
+        .MJXc-TeX-frak-R {
+ font-family: MJXc-TeX-frak-R, MJXc-TeX-frak-Rw
+
+        }
+
+ .MJXc-TeX-frak-B {
+ font-family: MJXc-TeX-frak-B,
+        MJXc-TeX-frak-Bx, MJXc-TeX-frak-Bw
+ }
+
+ .MJXc-TeX-math-BI {
+
+        font-family: MJXc-TeX-math-BI, MJXc-TeX-math-BIx, MJXc-TeX-math-BIw
+
+        }
+
+ .MJXc-TeX-sans-R {
+ font-family: MJXc-TeX-sans-R,
+        MJXc-TeX-sans-Rw
+ }
+
+ .MJXc-TeX-sans-B {
+ font-family:
+        MJXc-TeX-sans-B, MJXc-TeX-sans-Bx, MJXc-TeX-sans-Bw
+ }
+
+
+        .MJXc-TeX-sans-I {
+ font-family: MJXc-TeX-sans-I, MJXc-TeX-sans-Ix,
+        MJXc-TeX-sans-Iw
+ }
+
+ .MJXc-TeX-script-R {
+
+        font-family: MJXc-TeX-script-R, MJXc-TeX-script-Rw
+ }
+
+
+        .MJXc-TeX-type-R {
+ font-family: MJXc-TeX-type-R, MJXc-TeX-type-Rw
+
+        }
+
+ .MJXc-TeX-cal-R {
+ font-family: MJXc-TeX-cal-R,
+        MJXc-TeX-cal-Rw
+ }
+
+ .MJXc-TeX-main-B {
+ font-family:
+        MJXc-TeX-main-B, MJXc-TeX-main-Bx, MJXc-TeX-main-Bw
+ }
+
+
+        .MJXc-TeX-main-I {
+ font-family: MJXc-TeX-main-I, MJXc-TeX-main-Ix,
+        MJXc-TeX-main-Iw
+ }
+
+ .MJXc-TeX-main-R {
+ font-family:
+        MJXc-TeX-main-R, MJXc-TeX-main-Rw
+ }
+
+ .MJXc-TeX-math-I {
+
+        font-family: MJXc-TeX-math-I, MJXc-TeX-math-Ix, MJXc-TeX-math-Iw
+ }
+
+
+        .MJXc-TeX-size1-R {
+ font-family: MJXc-TeX-size1-R,
+        MJXc-TeX-size1-Rw
+ }
+
+ .MJXc-TeX-size2-R {
+
+        font-family: MJXc-TeX-size2-R, MJXc-TeX-size2-Rw
+ }
+
+
+        .MJXc-TeX-size3-R {
+ font-family: MJXc-TeX-size3-R,
+        MJXc-TeX-size3-Rw
+ }
+
+ .MJXc-TeX-size4-R {
+
+        font-family: MJXc-TeX-size4-R, MJXc-TeX-size4-Rw
+ }
+
+
+        .MJXc-TeX-vec-R {
+ font-family: MJXc-TeX-vec-R, MJXc-TeX-vec-Rw
+
+        }
+
+ .MJXc-TeX-vec-B {
+ font-family: MJXc-TeX-vec-B,
+        MJXc-TeX-vec-Bx, MJXc-TeX-vec-Bw
+ }
+
+ @font-face {
+
+        font-family: MJXc-TeX-ams-R;
+ src: local('MathJax_AMS'),
+        local('MathJax_AMS-Regular')
+ }
+
+ @font-face {
+
+        font-family: MJXc-TeX-ams-Rw;
+ src /*1*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/eot/MathJax_AMS-Regular.eot');
+
+        src /*2*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/woff/MathJax_AMS-Regular.woff')
+        format('woff'), url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/otf/MathJax_AMS-Regular.otf')
+        format('opentype')
+ }
+
+ @font-face {
+
+        font-family: MJXc-TeX-cal-B;
+ src: local('MathJax_Caligraphic
+        Bold'), local('MathJax_Caligraphic-Bold')
+ }
+
+
+        @font-face {
+ font-family: MJXc-TeX-cal-Bx;
+ src: local('MathJax_Caligraphic');
+
+        font-weight: bold
+ }
+
+ @font-face {
+ font-family:
+        MJXc-TeX-cal-Bw;
+ src /*1*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/eot/MathJax_Caligraphic-Bold.eot');
+
+        src /*2*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/woff/MathJax_Caligraphic-Bold.woff')
+        format('woff'), url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/otf/MathJax_Caligraphic-Bold.otf')
+        format('opentype')
+ }
+
+ @font-face {
+
+        font-family: MJXc-TeX-frak-R;
+ src: local('MathJax_Fraktur'),
+        local('MathJax_Fraktur-Regular')
+ }
+
+ @font-face {
+
+        font-family: MJXc-TeX-frak-Rw;
+ src /*1*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/eot/MathJax_Fraktur-Regular.eot');
+
+        src /*2*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/woff/MathJax_Fraktur-Regular.woff')
+        format('woff'), url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/otf/MathJax_Fraktur-Regular.otf')
+        format('opentype')
+ }
+
+ @font-face {
+
+        font-family: MJXc-TeX-frak-B;
+ src: local('MathJax_Fraktur Bold'),
+        local('MathJax_Fraktur-Bold')
+ }
+
+ @font-face {
+
+        font-family: MJXc-TeX-frak-Bx;
+ src: local('MathJax_Fraktur');
+
+        font-weight: bold
+ }
+
+ @font-face {
+ font-family:
+        MJXc-TeX-frak-Bw;
+ src /*1*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/eot/MathJax_Fraktur-Bold.eot');
+
+        src /*2*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/woff/MathJax_Fraktur-Bold.woff')
+        format('woff'), url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/otf/MathJax_Fraktur-Bold.otf')
+        format('opentype')
+ }
+
+ @font-face {
+
+        font-family: MJXc-TeX-math-BI;
+ src: local('MathJax_Math
+        BoldItalic'), local('MathJax_Math-BoldItalic')
+ }
+
+
+        @font-face {
+ font-family: MJXc-TeX-math-BIx;
+ src: local('MathJax_Math');
+
+        font-weight: bold;
+ font-style: italic
+ }
+
+ @font-face
+        {
+ font-family: MJXc-TeX-math-BIw;
+ src /*1*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/eot/MathJax_Math-BoldItalic.eot');
+
+        src /*2*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/woff/MathJax_Math-BoldItalic.woff')
+        format('woff'), url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/otf/MathJax_Math-BoldItalic.otf')
+        format('opentype')
+ }
+
+ @font-face {
+
+        font-family: MJXc-TeX-sans-R;
+ src: local('MathJax_SansSerif'),
+        local('MathJax_SansSerif-Regular')
+ }
+
+ @font-face
+        {
+ font-family: MJXc-TeX-sans-Rw;
+ src /*1*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/eot/MathJax_SansSerif-Regular.eot');
+
+        src /*2*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/woff/MathJax_SansSerif-Regular.woff')
+        format('woff'), url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/otf/MathJax_SansSerif-Regular.otf')
+        format('opentype')
+ }
+
+ @font-face {
+
+        font-family: MJXc-TeX-sans-B;
+ src: local('MathJax_SansSerif
+        Bold'), local('MathJax_SansSerif-Bold')
+ }
+
+
+        @font-face {
+ font-family: MJXc-TeX-sans-Bx;
+ src: local('MathJax_SansSerif');
+
+        font-weight: bold
+ }
+
+ @font-face {
+ font-family:
+        MJXc-TeX-sans-Bw;
+ src /*1*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/eot/MathJax_SansSerif-Bold.eot');
+
+        src /*2*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/woff/MathJax_SansSerif-Bold.woff')
+        format('woff'), url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/otf/MathJax_SansSerif-Bold.otf')
+        format('opentype')
+ }
+
+ @font-face {
+
+        font-family: MJXc-TeX-sans-I;
+ src: local('MathJax_SansSerif
+        Italic'), local('MathJax_SansSerif-Italic')
+ }
+
+
+        @font-face {
+ font-family: MJXc-TeX-sans-Ix;
+ src: local('MathJax_SansSerif');
+
+        font-style: italic
+ }
+
+ @font-face {
+ font-family:
+        MJXc-TeX-sans-Iw;
+ src /*1*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/eot/MathJax_SansSerif-Italic.eot');
+
+        src /*2*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/woff/MathJax_SansSerif-Italic.woff')
+        format('woff'), url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/otf/MathJax_SansSerif-Italic.otf')
+        format('opentype')
+ }
+
+ @font-face {
+
+        font-family: MJXc-TeX-script-R;
+ src: local('MathJax_Script'),
+        local('MathJax_Script-Regular')
+ }
+
+ @font-face {
+
+        font-family: MJXc-TeX-script-Rw;
+ src /*1*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/eot/MathJax_Script-Regular.eot');
+
+        src /*2*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/woff/MathJax_Script-Regular.woff')
+        format('woff'), url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/otf/MathJax_Script-Regular.otf')
+        format('opentype')
+ }
+
+ @font-face {
+
+        font-family: MJXc-TeX-type-R;
+ src: local('MathJax_Typewriter'),
+        local('MathJax_Typewriter-Regular')
+ }
+
+ @font-face
+        {
+ font-family: MJXc-TeX-type-Rw;
+ src /*1*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/eot/MathJax_Typewriter-Regular.eot');
+
+        src /*2*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/woff/MathJax_Typewriter-Regular.woff')
+        format('woff'), url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/otf/MathJax_Typewriter-Regular.otf')
+        format('opentype')
+ }
+
+ @font-face {
+
+        font-family: MJXc-TeX-cal-R;
+ src: local('MathJax_Caligraphic'),
+        local('MathJax_Caligraphic-Regular')
+ }
+
+
+        @font-face {
+ font-family: MJXc-TeX-cal-Rw;
+ src /*1*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/eot/MathJax_Caligraphic-Regular.eot');
+
+        src /*2*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/woff/MathJax_Caligraphic-Regular.woff')
+        format('woff'), url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/otf/MathJax_Caligraphic-Regular.otf')
+        format('opentype')
+ }
+
+ @font-face {
+
+        font-family: MJXc-TeX-main-B;
+ src: local('MathJax_Main Bold'),
+        local('MathJax_Main-Bold')
+ }
+
+ @font-face {
+
+        font-family: MJXc-TeX-main-Bx;
+ src: local('MathJax_Main');
+
+        font-weight: bold
+ }
+
+ @font-face {
+ font-family:
+        MJXc-TeX-main-Bw;
+ src /*1*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/eot/MathJax_Main-Bold.eot');
+
+        src /*2*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/woff/MathJax_Main-Bold.woff')
+        format('woff'), url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/otf/MathJax_Main-Bold.otf')
+        format('opentype')
+ }
+
+ @font-face {
+
+        font-family: MJXc-TeX-main-I;
+ src: local('MathJax_Main Italic'),
+        local('MathJax_Main-Italic')
+ }
+
+ @font-face {
+
+        font-family: MJXc-TeX-main-Ix;
+ src: local('MathJax_Main');
+
+        font-style: italic
+ }
+
+ @font-face {
+ font-family:
+        MJXc-TeX-main-Iw;
+ src /*1*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/eot/MathJax_Main-Italic.eot');
+
+        src /*2*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/woff/MathJax_Main-Italic.woff')
+        format('woff'), url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/otf/MathJax_Main-Italic.otf')
+        format('opentype')
+ }
+
+ @font-face {
+
+        font-family: MJXc-TeX-main-R;
+ src: local('MathJax_Main'),
+        local('MathJax_Main-Regular')
+ }
+
+ @font-face {
+
+        font-family: MJXc-TeX-main-Rw;
+ src /*1*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/eot/MathJax_Main-Regular.eot');
+
+        src /*2*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/woff/MathJax_Main-Regular.woff')
+        format('woff'), url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/otf/MathJax_Main-Regular.otf')
+        format('opentype')
+ }
+
+ @font-face {
+
+        font-family: MJXc-TeX-math-I;
+ src: local('MathJax_Math Italic'),
+        local('MathJax_Math-Italic')
+ }
+
+ @font-face {
+
+        font-family: MJXc-TeX-math-Ix;
+ src: local('MathJax_Math');
+
+        font-style: italic
+ }
+
+ @font-face {
+ font-family:
+        MJXc-TeX-math-Iw;
+ src /*1*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/eot/MathJax_Math-Italic.eot');
+
+        src /*2*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/woff/MathJax_Math-Italic.woff')
+        format('woff'), url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/otf/MathJax_Math-Italic.otf')
+        format('opentype')
+ }
+
+ @font-face {
+
+        font-family: MJXc-TeX-size1-R;
+ src: local('MathJax_Size1'),
+        local('MathJax_Size1-Regular')
+ }
+
+ @font-face {
+
+        font-family: MJXc-TeX-size1-Rw;
+ src /*1*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/eot/MathJax_Size1-Regular.eot');
+
+        src /*2*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/woff/MathJax_Size1-Regular.woff')
+        format('woff'), url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/otf/MathJax_Size1-Regular.otf')
+        format('opentype')
+ }
+
+ @font-face {
+
+        font-family: MJXc-TeX-size2-R;
+ src: local('MathJax_Size2'),
+        local('MathJax_Size2-Regular')
+ }
+
+ @font-face {
+
+        font-family: MJXc-TeX-size2-Rw;
+ src /*1*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/eot/MathJax_Size2-Regular.eot');
+
+        src /*2*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/woff/MathJax_Size2-Regular.woff')
+        format('woff'), url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/otf/MathJax_Size2-Regular.otf')
+        format('opentype')
+ }
+
+ @font-face {
+
+        font-family: MJXc-TeX-size3-R;
+ src: local('MathJax_Size3'),
+        local('MathJax_Size3-Regular')
+ }
+
+ @font-face {
+
+        font-family: MJXc-TeX-size3-Rw;
+ src /*1*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/eot/MathJax_Size3-Regular.eot');
+
+        src /*2*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/woff/MathJax_Size3-Regular.woff')
+        format('woff'), url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/otf/MathJax_Size3-Regular.otf')
+        format('opentype')
+ }
+
+ @font-face {
+
+        font-family: MJXc-TeX-size4-R;
+ src: local('MathJax_Size4'),
+        local('MathJax_Size4-Regular')
+ }
+
+ @font-face {
+
+        font-family: MJXc-TeX-size4-Rw;
+ src /*1*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/eot/MathJax_Size4-Regular.eot');
+
+        src /*2*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/woff/MathJax_Size4-Regular.woff')
+        format('woff'), url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/otf/MathJax_Size4-Regular.otf')
+        format('opentype')
+ }
+
+ @font-face {
+
+        font-family: MJXc-TeX-vec-R;
+ src: local('MathJax_Vector'),
+        local('MathJax_Vector-Regular')
+ }
+
+ @font-face {
+
+        font-family: MJXc-TeX-vec-Rw;
+ src /*1*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/eot/MathJax_Vector-Regular.eot');
+
+        src /*2*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/woff/MathJax_Vector-Regular.woff')
+        format('woff'), url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/otf/MathJax_Vector-Regular.otf')
+        format('opentype')
+ }
+
+ @font-face {
+
+        font-family: MJXc-TeX-vec-B;
+ src: local('MathJax_Vector Bold'),
+        local('MathJax_Vector-Bold')
+ }
+
+ @font-face {
+
+        font-family: MJXc-TeX-vec-Bx;
+ src: local('MathJax_Vector');
+
+        font-weight: bold
+ }
+
+ @font-face {
+ font-family:
+        MJXc-TeX-vec-Bw;
+ src /*1*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/eot/MathJax_Vector-Bold.eot');
+
+        src /*2*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/woff/MathJax_Vector-Bold.woff')
+        format('woff'), url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/otf/MathJax_Vector-Bold.otf')
+        format('opentype')
+ }
+
+    </style> <defs/> <g transform=" scale(1) translate(-176,-106)"> <rect x="639" y="229" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/> <rect x="659" y="229" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/> <rect x="679" y="229" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/> <rect x="699" y="229" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/> <rect x="619" y="409" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/> <rect x="639" y="409" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/> <rect x="659" y="409" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/> <rect x="679" y="409" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/> <rect x="699" y="409" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/> <rect x="619" y="229" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/> <rect x="610" y="250" width="100" height="140" fill="#ffffff" stroke="black" stroke-width="2" stroke-dasharray="NaN" pointer-events="none"/> <g fill="#000000" font-family="Arial,Helvetica" text-anchor="end" font-size="10px" transform="rotate(-90,646,258)"> <text x="646" y="256"> F </text> </g> <g fill="#000000" font-family="Arial,Helvetica" font-size="10px"/> <path d="M 640 231 L 640 250" fill="none" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="NaN" pointer-events="none"/> <g fill="#000000" font-family="Arial,Helvetica" text-anchor="end" font-size="10px" transform="rotate(-90,639,234)"> <text x="639" y="232"> 9 </text> </g> <g fill="#000000" font-family="Arial,Helvetica" font-size="10px"/> <g fill="#000000" font-family="Arial,Helvetica" text-anchor="end" font-size="10px" transform="rotate(-90,666,258)"> <text x="666" y="256"> cc </text> </g> <g fill="#000000" font-family="Arial,Helvetica" font-size="10px"/> <path d="M 660 231 L 660 250" fill="none" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="NaN" pointer-events="none"/> <g fill="#000000" font-family="Arial,Helvetica" text-anchor="end" font-size="10px" transform="rotate(-90,659,234)"> <text x="659" y="232"> 8 </text> </g> <g fill="#000000" font-family="Arial,Helvetica" font-size="10px"/> <g fill="#000000" font-family="Arial,Helvetica" text-anchor="end" font-size="10px" transform="rotate(-90,686,258)"> <text x="686" y="256"> A </text> </g> <g fill="#000000" font-family="Arial,Helvetica" font-size="10px"/> <path d="M 680 231 L 680 250" fill="none" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="NaN" pointer-events="none"/> <g fill="#000000" font-family="Arial,Helvetica" text-anchor="end" font-size="10px" transform="rotate(-90,679,234)"> <text x="679" y="232"> 7 </text> </g> <g fill="#000000" font-family="Arial,Helvetica" font-size="10px"/> <g fill="#000000" font-family="Arial,Helvetica" text-anchor="end" font-size="10px" transform="rotate(-90,706,258)"> <text x="706" y="256"> B </text> </g> <g fill="#000000" font-family="Arial,Helvetica" font-size="10px"/> <path d="M 700 231 L 700 250" fill="none" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="NaN" pointer-events="none"/> <g fill="#000000" font-family="Arial,Helvetica" text-anchor="end" font-size="10px" transform="rotate(-90,699,234)"> <text x="699" y="232"> 6 </text> </g> <g fill="#000000" font-family="Arial,Helvetica" font-size="10px"/> <g fill="#000000" font-family="Arial,Helvetica" text-anchor="end" font-size="10px" transform="rotate(-270,614,384)"> <text x="614" y="382"> E </text> </g> <g fill="#000000" font-family="Arial,Helvetica" font-size="10px"/> <path d="M 620 410 L 620 390" fill="none" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="NaN" pointer-events="none"/> <g fill="#000000" font-family="Arial,Helvetica" text-anchor="end" font-size="10px" transform="rotate(90,621,406)"> <text x="621" y="404"> 1 </text> </g> <g fill="#000000" font-family="Arial,Helvetica" font-size="10px"/> <g fill="#000000" font-family="Arial,Helvetica" text-anchor="end" font-size="10px" transform="rotate(-270,634,384)"> <text x="634" y="382"> D </text> </g> <g fill="#000000" font-family="Arial,Helvetica" font-size="10px"/> <path d="M 640 410 L 640 390" fill="none" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="NaN" pointer-events="none"/> <g fill="#000000" font-family="Arial,Helvetica" text-anchor="end" font-size="10px" transform="rotate(90,641,406)"> <text x="641" y="404"> 2 </text> </g> <g fill="#000000" font-family="Arial,Helvetica" font-size="10px"/> <g fill="#000000" font-family="Arial,Helvetica" text-anchor="end" font-size="10px" transform="rotate(-270,654,384)"> <text x="654" y="382"> cc </text> </g> <g fill="#000000" font-family="Arial,Helvetica" font-size="10px"/> <path d="M 660 410 L 660 390" fill="none" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="NaN" pointer-events="none"/> <g fill="#000000" font-family="Arial,Helvetica" text-anchor="end" font-size="10px" transform="rotate(90,661,406)"> <text x="661" y="404"> 3 </text> </g> <g fill="#000000" font-family="Arial,Helvetica" font-size="10px"/> <g fill="#000000" font-family="Arial,Helvetica" text-anchor="end" font-size="10px" transform="rotate(-270,674,384)"> <text x="674" y="382"> C </text> </g> <g fill="#000000" font-family="Arial,Helvetica" font-size="10px"/> <path d="M 680 410 L 680 390" fill="none" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="NaN" pointer-events="none"/> <g fill="#000000" font-family="Arial,Helvetica" text-anchor="end" font-size="10px" transform="rotate(90,681,406)"> <text x="681" y="404"> 4 </text> </g> <g fill="#000000" font-family="Arial,Helvetica" font-size="10px"/> <g fill="#000000" font-family="Arial,Helvetica" text-anchor="end" font-size="10px" transform="rotate(-270,694,384)"> <text x="694" y="382"> DP </text> </g> <g fill="#000000" font-family="Arial,Helvetica" font-size="10px"/> <path d="M 700 410 L 700 390" fill="none" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="NaN" pointer-events="none"/> <g fill="#000000" font-family="Arial,Helvetica" text-anchor="end" font-size="10px" transform="rotate(90,701,406)"> <text x="701" y="404"> 5 </text> </g> <g fill="#000000" font-family="Arial,Helvetica" font-size="10px"/> <g fill="#000000" font-family="Arial,Helvetica" text-anchor="end" font-size="10px" transform="rotate(-90,626,258)"> <text x="626" y="256"> G </text> </g> <g fill="#000000" font-family="Arial,Helvetica" font-size="10px"/> <path d="M 620 231 L 620 250" fill="none" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="NaN" pointer-events="none"/> <g fill="#000000" font-family="Arial,Helvetica" text-anchor="end" font-size="10px" transform="rotate(-90,619,234)"> <text x="619" y="232"> 10 </text> </g> <g fill="#000000" font-family="Arial,Helvetica" font-size="10px"/> <rect x="640" y="310" width="34" height="13" fill-opacity="0" fill="#dae2f2" stroke="none" pointer-events="none"/> <g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="middle" font-size="12px"> <text x="657" y="321.5"> SSD1 </text> </g> <rect x="799" y="229" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/> <rect x="819" y="229" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/> <rect x="839" y="229" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/> <rect x="859" y="229" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/> <rect x="779" y="409" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/> <rect x="799" y="409" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/> <rect x="819" y="409" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/> <rect x="839" y="409" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/> <rect x="859" y="409" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/> <rect x="779" y="229" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/> <rect x="770" y="250" width="100" height="140" fill="#ffffff" stroke="black" stroke-width="2" stroke-dasharray="NaN" pointer-events="none"/> <g fill="#000000" font-family="Arial,Helvetica" text-anchor="end" font-size="10px" transform="rotate(-90,806,258)"> <text x="806" y="256"> F </text> </g> <g fill="#000000" font-family="Arial,Helvetica" font-size="10px"/> <path d="M 800 231 L 800 250" fill="none" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="NaN" pointer-events="none"/> <g fill="#000000" font-family="Arial,Helvetica" text-anchor="end" font-size="10px" transform="rotate(-90,799,234)"> <text x="799" y="232"> 9 </text> </g> <g fill="#000000" font-family="Arial,Helvetica" font-size="10px"/> <g fill="#000000" font-family="Arial,Helvetica" text-anchor="end" font-size="10px" transform="rotate(-90,826,258)"> <text x="826" y="256"> cc </text> </g> <g fill="#000000" font-family="Arial,Helvetica" font-size="10px"/> <path d="M 820 231 L 820 250" fill="none" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="NaN" pointer-events="none"/> <g fill="#000000" font-family="Arial,Helvetica" text-anchor="end" font-size="10px" transform="rotate(-90,819,234)"> <text x="819" y="232"> 8 </text> </g> <g fill="#000000" font-family="Arial,Helvetica" font-size="10px"/> <g fill="#000000" font-family="Arial,Helvetica" text-anchor="end" font-size="10px" transform="rotate(-90,846,258)"> <text x="846" y="256"> A </text> </g> <g fill="#000000" font-family="Arial,Helvetica" font-size="10px"/> <path d="M 840 231 L 840 250" fill="none" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="NaN" pointer-events="none"/> <g fill="#000000" font-family="Arial,Helvetica" text-anchor="end" font-size="10px" transform="rotate(-90,839,234)"> <text x="839" y="232"> 7 </text> </g> <g fill="#000000" font-family="Arial,Helvetica" font-size="10px"/> <g fill="#000000" font-family="Arial,Helvetica" text-anchor="end" font-size="10px" transform="rotate(-90,866,258)"> <text x="866" y="256"> B </text> </g> <g fill="#000000" font-family="Arial,Helvetica" font-size="10px"/> <path d="M 860 231 L 860 250" fill="none" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="NaN" pointer-events="none"/> <g fill="#000000" font-family="Arial,Helvetica" text-anchor="end" font-size="10px" transform="rotate(-90,859,234)"> <text x="859" y="232"> 6 </text> </g> <g fill="#000000" font-family="Arial,Helvetica" font-size="10px"/> <g fill="#000000" font-family="Arial,Helvetica" text-anchor="end" font-size="10px" transform="rotate(-270,774,384)"> <text x="774" y="382"> E </text> </g> <g fill="#000000" font-family="Arial,Helvetica" font-size="10px"/> <path d="M 780 410 L 780 390" fill="none" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="NaN" pointer-events="none"/> <g fill="#000000" font-family="Arial,Helvetica" text-anchor="end" font-size="10px" transform="rotate(90,781,406)"> <text x="781" y="404"> 1 </text> </g> <g fill="#000000" font-family="Arial,Helvetica" font-size="10px"/> <g fill="#000000" font-family="Arial,Helvetica" text-anchor="end" font-size="10px" transform="rotate(-270,794,384)"> <text x="794" y="382"> D </text> </g> <g fill="#000000" font-family="Arial,Helvetica" font-size="10px"/> <path d="M 800 410 L 800 390" fill="none" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="NaN" pointer-events="none"/> <g fill="#000000" font-family="Arial,Helvetica" text-anchor="end" font-size="10px" transform="rotate(90,801,406)"> <text x="801" y="404"> 2 </text> </g> <g fill="#000000" font-family="Arial,Helvetica" font-size="10px"/> <g fill="#000000" font-family="Arial,Helvetica" text-anchor="end" font-size="10px" transform="rotate(-270,814,384)"> <text x="814" y="382"> cc </text> </g> <g fill="#000000" font-family="Arial,Helvetica" font-size="10px"/> <path d="M 820 410 L 820 390" fill="none" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="NaN" pointer-events="none"/> <g fill="#000000" font-family="Arial,Helvetica" text-anchor="end" font-size="10px" transform="rotate(90,821,406)"> <text x="821" y="404"> 3 </text> </g> <g fill="#000000" font-family="Arial,Helvetica" font-size="10px"/> <g fill="#000000" font-family="Arial,Helvetica" text-anchor="end" font-size="10px" transform="rotate(-270,834,384)"> <text x="834" y="382"> C </text> </g> <g fill="#000000" font-family="Arial,Helvetica" font-size="10px"/> <path d="M 840 410 L 840 390" fill="none" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="NaN" pointer-events="none"/> <g fill="#000000" font-family="Arial,Helvetica" text-anchor="end" font-size="10px" transform="rotate(90,841,406)"> <text x="841" y="404"> 4 </text> </g> <g fill="#000000" font-family="Arial,Helvetica" font-size="10px"/> <g fill="#000000" font-family="Arial,Helvetica" text-anchor="end" font-size="10px" transform="rotate(-270,854,384)"> <text x="854" y="382"> DP </text> </g> <g fill="#000000" font-family="Arial,Helvetica" font-size="10px"/> <path d="M 860 410 L 860 390" fill="none" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="NaN" pointer-events="none"/> <g fill="#000000" font-family="Arial,Helvetica" text-anchor="end" font-size="10px" transform="rotate(90,861,406)"> <text x="861" y="404"> 5 </text> </g> <g fill="#000000" font-family="Arial,Helvetica" font-size="10px"/> <g fill="#000000" font-family="Arial,Helvetica" text-anchor="end" font-size="10px" transform="rotate(-90,786,258)"> <text x="786" y="256"> G </text> </g> <g fill="#000000" font-family="Arial,Helvetica" font-size="10px"/> <path d="M 780 231 L 780 250" fill="none" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="NaN" pointer-events="none"/> <g fill="#000000" font-family="Arial,Helvetica" text-anchor="end" font-size="10px" transform="rotate(-90,779,234)"> <text x="779" y="232"> 10 </text> </g> <g fill="#000000" font-family="Arial,Helvetica" font-size="10px"/> <rect x="800" y="310" width="34" height="13" fill-opacity="0" fill="#dae2f2" stroke="none" pointer-events="none"/> <g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="middle" font-size="12px"> <text x="817" y="321.5"> SSD2 </text> </g> <rect x="619" y="169" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/> <rect x="639" y="169" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/> <rect x="679" y="169" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/> <rect x="699" y="169" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/> <rect x="779" y="169" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/> <rect x="799" y="169" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/> <rect x="839" y="169" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/> <rect x="859" y="169" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/> <g fill="#000000" font-family="Arial" font-size="14px"> <text x="695" y="116"> NANO PINS </text> </g> <g fill="#000000" font-family="Arial" font-size="14px"/> <g fill="#000000" font-family="Arial" text-anchor="end" font-size="10px" transform="rotate(-270,614,143)"> <text x="614" y="141"> D13 </text> </g> <g fill="#000000" font-family="Arial" font-size="10px"/> <path d="M 620 169 L 620 149" fill="none" stroke="black" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/> <g fill="#000000" font-family="Arial" text-anchor="end" font-size="10px" transform="rotate(-270,634,143)"> <text x="634" y="141"> A0 </text> </g> <g fill="#000000" font-family="Arial" font-size="10px"/> <path d="M 640 169 L 640 149" fill="none" stroke="black" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/> <g fill="#000000" font-family="Arial" text-anchor="end" font-size="10px" transform="rotate(-270,674,143)"> <text x="674" y="141"> A1 </text> </g> <g fill="#000000" font-family="Arial" font-size="10px"/> <path d="M 680 169 L 680 149" fill="none" stroke="black" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/> <g fill="#000000" font-family="Arial" text-anchor="end" font-size="10px" transform="rotate(-270,694,143)"> <text x="694" y="141"> A2 </text> </g> <g fill="#000000" font-family="Arial" font-size="10px"/> <path d="M 700 169 L 700 149" fill="none" stroke="black" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/> <g fill="#000000" font-family="Arial" text-anchor="end" font-size="10px" transform="rotate(-270,774,143)"> <text x="774" y="141"> A3 </text> </g> <g fill="#000000" font-family="Arial" font-size="10px"/> <path d="M 780 169 L 780 149" fill="none" stroke="black" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/> <g fill="#000000" font-family="Arial" text-anchor="end" font-size="10px" transform="rotate(-270,794,143)"> <text x="794" y="141"> A4 </text> </g> <g fill="#000000" font-family="Arial" font-size="10px"/> <path d="M 800 169 L 800 149" fill="none" stroke="black" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/> <g fill="#000000" font-family="Arial" text-anchor="end" font-size="10px" transform="rotate(-270,834,143)"> <text x="834" y="141"> A5 </text> </g> <g fill="#000000" font-family="Arial" font-size="10px"/> <path d="M 840 169 L 840 149" fill="none" stroke="black" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/> <g fill="#000000" font-family="Arial" text-anchor="end" font-size="10px" transform="rotate(-270,854,143)"> <text x="854" y="141"> D12 </text> </g> <g fill="#000000" font-family="Arial" font-size="10px"/> <path d="M 860 169 L 860 149" fill="none" stroke="black" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/> <path d="M 620 170 L 620 230" fill="none" stroke="#00ff00" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/> <path d="M 640 170 L 640 230" fill="none" stroke="#00ff00" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/> <path d="M 680 170 L 680 230" fill="none" stroke="#00ff00" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/> <path d="M 700 170 L 700 230" fill="none" stroke="#00ff00" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/> <path d="M 780 170 L 780 230" fill="none" stroke="#0000ff" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/> <path d="M 800 170 L 800 230" fill="none" stroke="#0000ff" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/> <path d="M 840 170 L 840 230" fill="none" stroke="#0000ff" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/> <path d="M 860 170 L 860 230" fill="none" stroke="#0000ff" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/> <rect x="659" y="409" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/> <rect x="659" y="469" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/> <path d="M 660 411 L 660 421" fill="#000000" stroke="#000000" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/> <path d="M 660 459 L 660 469" fill="#000000" stroke="#000000" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/> <path d="M 653 422 C 666.39 421.82 667 422 667 422 L 667 458 L 653 458 Z" fill="#ffffff" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/> <rect x="660" y="410" width="17" height="13" fill-opacity="0" fill="#dae2f2" stroke="none" pointer-events="none"/> <g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="middle" font-size="8px"> <text x="668.5" y="419.5"> R1 </text> </g> <rect x="819" y="409" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/> <rect x="819" y="469" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/> <path d="M 820 411 L 820 421" fill="#000000" stroke="#000000" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/> <path d="M 820 459 L 820 469" fill="#000000" stroke="#000000" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/> <path d="M 813 422 C 826.39 421.82 827 422 827 422 L 827 458 L 813 458 Z" fill="#ffffff" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/> <rect x="820" y="410" width="17" height="13" fill-opacity="0" fill="#dae2f2" stroke="none" pointer-events="none"/> <g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="middle" font-size="8px"> <text x="828.5" y="419.5"> R2 </text> </g> <rect x="619" y="469" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/> <rect x="639" y="469" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/> <rect x="679" y="469" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/> <rect x="779" y="469" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/> <rect x="799" y="469" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/> <rect x="839" y="469" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/> <rect x="659" y="469" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/> <rect x="819" y="469" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/> <g fill="#000000" font-family="Arial" font-size="14px"> <text x="705" y="537"> NANO PINS </text> </g> <g fill="#000000" font-family="Arial" font-size="14px"/> <g fill="#000000" font-family="Arial" text-anchor="end" font-size="10px" transform="rotate(-90,626,498)"> <text x="626" y="496"> D7 </text> </g> <g fill="#000000" font-family="Arial" font-size="10px"/> <path d="M 620 471 L 620 490" fill="none" stroke="black" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/> <g fill="#000000" font-family="Arial" text-anchor="end" font-size="10px" transform="rotate(-90,646,498)"> <text x="646" y="496"> D6 </text> </g> <g fill="#000000" font-family="Arial" font-size="10px"/> <path d="M 640 471 L 640 490" fill="none" stroke="black" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/> <g fill="#000000" font-family="Arial" text-anchor="end" font-size="10px" transform="rotate(-90,686,498)"> <text x="686" y="496"> D5 </text> </g> <g fill="#000000" font-family="Arial" font-size="10px"/> <path d="M 680 471 L 680 490" fill="none" stroke="black" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/> <g fill="#000000" font-family="Arial" text-anchor="end" font-size="10px" transform="rotate(-90,786,498)"> <text x="786" y="496"> D4 </text> </g> <g fill="#000000" font-family="Arial" font-size="10px"/> <path d="M 780 471 L 780 490" fill="none" stroke="black" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/> <g fill="#000000" font-family="Arial" text-anchor="end" font-size="10px" transform="rotate(-90,806,498)"> <text x="806" y="496"> D3 </text> </g> <g fill="#000000" font-family="Arial" font-size="10px"/> <path d="M 800 471 L 800 490" fill="none" stroke="black" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/> <g fill="#000000" font-family="Arial" text-anchor="end" font-size="10px" transform="rotate(-90,846,498)"> <text x="846" y="496"> D2 </text> </g> <g fill="#000000" font-family="Arial" font-size="10px"/> <path d="M 840 471 L 840 490" fill="none" stroke="black" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/> <g fill="#000000" font-family="Arial" text-anchor="end" font-size="10px" transform="rotate(-90,666,498)"> <text x="666" y="496"> GND </text> </g> <g fill="#000000" font-family="Arial" font-size="10px"/> <path d="M 660 471 L 660 490" fill="none" stroke="black" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/> <g fill="#000000" font-family="Arial" text-anchor="end" font-size="10px" transform="rotate(-90,826,498)"> <text x="826" y="496"> GND </text> </g> <g fill="#000000" font-family="Arial" font-size="10px"/> <path d="M 820 471 L 820 490" fill="none" stroke="black" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/> <path d="M 780 410 L 780 470" fill="none" stroke="#0000ff" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/> <path d="M 800 410 L 800 470" fill="none" stroke="#0000ff" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/> <path d="M 840 410 L 840 470" fill="none" stroke="#0000ff" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/> <path d="M 620 410 L 620 470" fill="none" stroke="#00ff00" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/> <path d="M 640 410 L 640 470" fill="none" stroke="#00ff00" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/> <path d="M 680 410 L 680 470" fill="none" stroke="#00ff00" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/> <rect x="199" y="239" width="2" height="2" fill="#000000" stroke="none" transform="translate(225,0)scale(-1,1)translate(-225,0)" pointer-events="none"/> <rect x="199" y="319" width="2" height="2" fill="#000000" stroke="none" transform="translate(225,0)scale(-1,1)translate(-225,0)" pointer-events="none"/> <rect x="190" y="260" width="20" height="40" fill="#ffffff" stroke="black" stroke-width="2" stroke-dasharray="NaN" transform="translate(225,0)scale(-1,1)translate(-225,0)" pointer-events="none"/> <path d="M 210 260 L 230 250" fill="none" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="NaN" transform="translate(225,0)scale(-1,1)translate(-225,0)" pointer-events="none"/> <path d="M 210 300 L 230 310" fill="none" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="NaN" transform="translate(225,0)scale(-1,1)translate(-225,0)" pointer-events="none"/> <path d="M 230 250 L 230 310" fill="none" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="NaN" transform="translate(225,0)scale(-1,1)translate(-225,0)" pointer-events="none"/> <path d="M 240 270 C 240 270 250 280 240 290" fill="none" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="NaN" transform="translate(225,0)scale(-1,1)translate(-225,0)" pointer-events="none"/> <path d="M 250 260 C 250 260 260 280 250 300" fill="none" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="NaN" transform="translate(225,0)scale(-1,1)translate(-225,0)" pointer-events="none"/> <path d="M 260 250 C 260 250 280 280 260 310" fill="none" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="NaN" transform="translate(225,0)scale(-1,1)translate(-225,0)" pointer-events="none"/> <g fill="#000000" font-family="Arial,Helvetica" text-anchor="end" font-size="10px" transform="translate(225,0)scale(-1,1)translate(-225,0)rotate(-90,206,268)"> <text x="206" y="266"> + </text> </g> <g fill="#000000" font-family="Arial,Helvetica" font-size="10px" transform="translate(225,0)scale(-1,1)translate(-225,0)"/> <path d="M 200 241 L 200 260" fill="none" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="NaN" transform="translate(225,0)scale(-1,1)translate(-225,0)" pointer-events="none"/> <g fill="#000000" font-family="Arial,Helvetica" text-anchor="end" font-size="10px" transform="translate(225,0)scale(-1,1)translate(-225,0)rotate(-270,194,294)"> <text x="194" y="292"> - </text> </g> <g fill="#000000" font-family="Arial,Helvetica" font-size="10px" transform="translate(225,0)scale(-1,1)translate(-225,0)"/> <path d="M 200 320 L 200 300" fill="none" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="NaN" transform="translate(225,0)scale(-1,1)translate(-225,0)" pointer-events="none"/> <rect x="200" y="220" width="46" height="13" fill-opacity="0" fill="#dae2f2" stroke="none" pointer-events="none"/> <g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="middle" font-size="12px"> <text x="223" y="231.5"> PIEZO1 </text> </g> <rect x="289" y="259" width="2" height="2" fill="#000000" stroke="none" transform="rotate(180,315,280)" pointer-events="none"/> <rect x="289" y="299" width="2" height="2" fill="#000000" stroke="none" transform="rotate(180,315,280)" pointer-events="none"/> <path d="M 310 270 L 340 280" fill="none" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="NaN" transform="rotate(180,315,280)" pointer-events="none"/> <path d="M 291 260 L 310 260" fill="none" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="NaN" transform="rotate(180,315,280)" pointer-events="none"/> <path d="M 291 300 L 310 300" fill="none" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="NaN" transform="rotate(180,315,280)" pointer-events="none"/> <rect x="340" y="240" width="16" height="13" fill-opacity="0" fill="#dae2f2" stroke="none" pointer-events="none"/> <g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="middle" font-size="12px"> <text x="348" y="251.5"> S2 </text> </g> <path d="M 290 280 L 290 220 L 250 220 L 250 240" fill="none" stroke="#7f00ff" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/> <path d="M 331 360 L 371 340" fill="none" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="NaN" pointer-events="none"/> <rect x="300" y="350" width="20" height="20" fill-opacity="0" fill="#dae2f2" stroke="none" pointer-events="none"/> <g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="middle" font-size="12px"> <text x="310" y="365"> S1 </text> </g> <rect x="399" y="269" width="2" height="2" fill="#000000" stroke="none" transform="rotate(90,400,300)" pointer-events="none"/> <rect x="399" y="329" width="2" height="2" fill="#000000" stroke="none" transform="rotate(90,400,300)" pointer-events="none"/> <path d="M 400 271 L 400 281" fill="#000000" stroke="#000000" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" transform="rotate(90,400,300)" pointer-events="none"/> <path d="M 400 319 L 400 329" fill="#000000" stroke="#000000" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" transform="rotate(90,400,300)" pointer-events="none"/> <path d="M 393 282 C 406.39 281.82 407 282 407 282 L 407 318 L 393 318 Z" fill="#ffffff" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" transform="rotate(90,400,300)" pointer-events="none"/> <rect x="390" y="290" width="20" height="20" fill-opacity="0" fill="#dae2f2" stroke="none" pointer-events="none"/> <g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="middle" font-size="8px"> <text x="400" y="303"> R3 </text> </g> <rect x="479" y="279" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/> <rect x="479" y="299" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/> <rect x="479" y="339" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/> <rect x="479" y="379" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/> <g fill="#000000" font-family="Arial" font-size="14px"> <text x="535" y="327"> NANO </text> </g> <g fill="#000000" font-family="Arial" font-size="14px"/> <g fill="#000000" font-family="Arial" font-size="14px"> <text x="535" y="341"> PINS </text> </g> <g fill="#000000" font-family="Arial" font-size="14px"/> <g fill="#000000" font-family="Arial" font-size="10px"> <text x="507" y="284"> D10 </text> </g> <g fill="#000000" font-family="Arial" font-size="10px"/> <path d="M 481 280 L 500 280" fill="none" stroke="black" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/> <g fill="#000000" font-family="Arial" font-size="10px"> <text x="507" y="304"> D9 </text> </g> <g fill="#000000" font-family="Arial" font-size="10px"/> <path d="M 481 300 L 500 300" fill="none" stroke="black" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/> <g fill="#000000" font-family="Arial" font-size="10px"> <text x="507" y="344"> D8 </text> </g> <g fill="#000000" font-family="Arial" font-size="10px"/> <path d="M 481 340 L 500 340" fill="none" stroke="black" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/> <g fill="#000000" font-family="Arial" font-size="10px"> <text x="507" y="384"> GND </text> </g> <g fill="#000000" font-family="Arial" font-size="10px"/> <path d="M 481 380 L 500 380" fill="none" stroke="black" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/> <path d="M 430 300 L 480 300" fill="none" stroke="#7f00ff" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/> <path d="M 340 260 L 420 260 L 420 280 L 480 280" fill="none" stroke="#ff7f00" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/> <path d="M 380 360 L 430 360 L 430 340 L 480 340" fill="none" stroke="#ff00ff" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/> <path d="M 330 360 L 330 390 L 450 390 L 450 380 L 480 380" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/> <path d="M 250 320 L 250 390 L 328 390" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/> <ellipse cx="330" cy="390" rx="2" ry="2" fill="#000000" stroke="#000000" stroke-width="2" pointer-events="none"/> <path d="M 340 300 L 370 300" fill="none" stroke="#7f00ff" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/> </g> </svg>
