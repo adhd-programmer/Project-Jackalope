@@ -10,7 +10,7 @@
 
 Create a fake speed gun for my nephew. 
 
-## Schematic
+## Schematic & BOM
 ![Schematic](assets/schematic.svg)
 
 |Name          |Quantity|Component                  |
