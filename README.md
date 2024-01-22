@@ -10,6 +10,12 @@
 
 Create a fake speed gun for my nephew. 
 
+## Schematic
+
+
+
+## BOM
+
 ## Component Buy Links
 
 - [6 Colors Jumper Wire](https://amzn.to/48XHMGV)
