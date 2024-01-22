@@ -1,6 +1,10 @@
-# Project Jackalope
 
-![Jackalope](img.png "Jackalope")
+<div align="center">
+  <img src="assets/jackalope.jpeg" alt="Jackalope" width="200"/>
+  <h1>Project Jackalope</h1>
+</div>
+
+</br>
 
 ## Mission
 
