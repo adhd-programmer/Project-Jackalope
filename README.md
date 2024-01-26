@@ -35,3 +35,4 @@ Create a fake speed gun for my nephew.
 - [6x Colorful Mini Breadboards](https://amzn.to/48KzYYM)
 - [3x Nano V3 ATmega328P](https://amzn.to/494mk2e)
 - [4x 250g Sparkly Transparent PETG Filament](https://amzn.to/3vLVUUQ)
+- [3x Nano Terminal Adapter V1.0](https://amzn.to/3OGnTMr)
