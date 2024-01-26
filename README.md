@@ -24,6 +24,9 @@ Create a fake speed gun for my nephew.
 |      S2      |   1    |        Slideswitch        |
 |  SSD1, SSD2  |   2    | Cathode 7 Segment Display |
 
+## STL Files
+
+[Click Here](./stl/)
 
 ## Component Buy Links
 
