@@ -2,7 +2,7 @@
 <div align="center">
   <img src="assets/jackalope.jpeg" alt="Jackalope" width="200"/>
   <h1>Project Jackalope</h1>
-  <h3><a href="3">Youtube Video</a></h3>
+  <h3><a href="https://youtube.com/shorts/zSE2tXsFJSI?si=wnHbjkHoi1FTBMal">Part 1</a></h3>
 </div>
 
 </br>
@@ -36,3 +36,7 @@ Create a fake speed gun for my nephew.
 - [3x Nano V3 ATmega328P](https://amzn.to/494mk2e)
 - [4x 250g Sparkly Transparent PETG Filament](https://amzn.to/3vLVUUQ)
 - [3x Nano Terminal Adapter V1.0](https://amzn.to/3OGnTMr)
+- [10x Piezo Buzzers](https://amzn.to/3HYF3Ba)
+- [20x Slide Switches](https://amzn.to/49yjjYA)
+- [10x SPST Push Buttons](https://amzn.to/49QpAPx)
+- 3x 3mm screws
