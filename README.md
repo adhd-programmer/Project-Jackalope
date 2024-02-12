@@ -2,7 +2,6 @@
 <div align="center">
   <img src="assets/jackalope.jpeg" alt="Jackalope" width="200"/>
   <h1>Project Jackalope</h1>
-  <h3><a target="_blank" href="https://youtube.com/shorts/zSE2tXsFJSI?si=wnHbjkHoi1FTBMal">Part 1</a></h3>
 </div>
 
 </br>
@@ -10,6 +9,10 @@
 ## Mission
 
 Create a fake speed gun for my nephew. 
+
+## YouTube Shorts
+
+- [Part 1](https://youtube.com/shorts/zSE2tXsFJSI?si=wnHbjkHoi1FTBMal)
 
 ## Schematic & BOM
 ![Schematic](assets/schematic.svg)
